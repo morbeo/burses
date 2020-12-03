@@ -8,6 +8,7 @@ line_double=(═ ║)
 line_dash=(╌ ╍ ╎ ╏ ┄ ┅ ┆ ┇ ┈ ┉ ┊ ┋)
 box=(┌ ┍ ┎ ┏ ┐ ┑ ┒ ┓ └ ┕ ┖ ┗ ┘ ┙ ┚ ┛├ ┝ ┞ ┟ ┠ ┡ ┢ ┣ ┤ ┥ ┦ ┧ ┨ ┩ ┪ ┫ ┬ ┭ ┮ ┯ ┰ ┱ ┲ ┳ ┴ ┵ ┶ ┷ ┸ ┹ ┺ ┻ ┼ ┽ ┾ ┿ ╀ ╁ ╂ ╃ ╄ ╅ ╆ ╇ ╈ ╉ ╊ ╋)
 line_half=(╴ ╵ ╶ ╷ ╸ ╹ ╺ ╻ ╼ ╽ ╾ ╿)
+quadrant_squares=(▖ ▗ ▘ ▝ ▞ ▚ ▙ ▛ ▜ ▟)
 
 ## Block elements
 # ▀ UPPER HALF BLOCK
@@ -55,7 +56,15 @@ line_half=(╴ ╵ ╶ ╷ ╸ ╹ ╺ ╻ ╼ ╽ ╾ ╿)
 # │ LIGHT VERTICAL
 # ┃ HEAVY VERTICAL
 
+## Double lines
+# ═ DOUBLE HORIZONTAL
+# ║ DOUBLE VERTICAL
+
 ## Light and heavy dashed lines
+# ╌ LIGHT DOUBLE DASH HORIZONTAL
+# ╍ HEAVY DOUBLE DASH HORIZONTAL
+# ╎ LIGHT DOUBLE DASH VERTICAL
+# ╏ HEAVY DOUBLE DASH VERTICAL
 # ┄ LIGHT TRIPLE DASH HORIZONTAL
 # ┅ HEAVY TRIPLE DASH HORIZONTAL
 # ┆ LIGHT TRIPLE DASH VERTICAL
@@ -64,6 +73,16 @@ line_half=(╴ ╵ ╶ ╷ ╸ ╹ ╺ ╻ ╼ ╽ ╾ ╿)
 # ┉ HEAVY QUADRUPLE DASH HORIZONTAL
 # ┊ LIGHT QUADRUPLE DASH VERTICAL
 # ┋ HEAVY QUADRUPLE DASH VERTICAL
+
+## Light and heavy half lines
+# ╴ LIGHT LEFT
+# ╵ LIGHT UP
+# ╶ LIGHT RIGHT
+# ╷ LIGHT DOWN
+# ╸ HEAVY LEFT
+# ╹ HEAVY UP
+# ╺ HEAVY RIGHT
+# ╻ HEAVY DOWN
 
 ## Light and heavy line box components
 # ┌ LIGHT DOWN AND RIGHT
@@ -167,26 +186,6 @@ line_half=(╴ ╵ ╶ ╷ ╸ ╹ ╺ ╻ ╼ ╽ ╾ ╿)
 # ╱ LIGHT DIAGONAL UPPERRIGHT TO LOWER LEFT
 # ╲ LIGHT DIAGONAL UPPER LEFTTO LOWER RIGHT
 # ╳ LIGHT DIAGONAL CROSS
-
-## Light and heavy half lines
-# ╴ LIGHT LEFT
-# ╵ LIGHT UP
-# ╶ LIGHT RIGHT
-# ╷ LIGHT DOWN
-# ╸ HEAVY LEFT
-# ╹ HEAVY UP
-# ╺ HEAVY RIGHT
-# ╻ HEAVY DOWN
-
-## Light and heavy dashed lines
-# ╌ LIGHT DOUBLE DASH HORIZONTAL
-# ╍ HEAVY DOUBLE DASH HORIZONTAL
-# ╎ LIGHT DOUBLE DASH VERTICAL
-# ╏ HEAVY DOUBLE DASH VERTICAL
-
-## Double lines
-# ═ DOUBLE HORIZONTAL
-# ║ DOUBLE VERTICAL
 
 ## Light and double line box components
 # ╒ DOWN SINGLE AND RIGHT DOUBLE
