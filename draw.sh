@@ -59,26 +59,26 @@ function draw::move_right {
 }
 
 function draw::move_left {
-  local offset=$1
+  local offset="$1"
   draw::code "${offset}D"
 }
 
 function draw::nchars {
-  local count=$1
-  local char=${2:0:1}
+  local count="$1"
+  local char="${2:0:1}"
   printf "%.0s${char}" "$(seq 1 $((count)))"
 }
 
 function draw::line {
-  local pattern=${1:-─}
-  local length=$2
-  repeat "${length:-${COLUMNS}}" printf "${pattern:0:1}"
+  local pattern="${1:-─}"
+  local length="${2:-${COLUMNS}}"
+  printf "%.0s${pattern}" "$(eval echo $(seq 1 $((length))))"
 }
 
 function draw::vline {
   local pattern=${1:-│}
-  local length=$(($2))
-  repeat
+  local length=$((${2:${LINES}}))
+  printf "%.0s${pattern}" "$(eval echo $(seq 1 $((length))))"
 }
 
 
