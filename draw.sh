@@ -66,7 +66,7 @@ function draw::move_left {
 function draw::nchars {
   local count="$1"
   local char="${2:0:1}"
-  printf "%.0s${char}" "$(seq 1 $((count)))"
+  printf "%s\e[$((count))b" "${char}"
 }
 
 function draw::line {
